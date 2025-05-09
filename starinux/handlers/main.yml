@@ -1,8 +1,0 @@
-handlers:
-  - name: Start Apache
-    shell: /usr/sbin/apache2ctl start
-    args:
-      creates: /var/run/apache2/apache2.pid
-
-  - name: Reload Apache
-     shell: /usr/sbin/apache2ctl -k graceful
