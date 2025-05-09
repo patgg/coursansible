@@ -1,4 +1,0 @@
----
-- hosts: starinux
-  roles:
-    - starinux
