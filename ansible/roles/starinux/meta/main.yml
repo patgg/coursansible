@@ -1,0 +1,21 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: apache
+  author: testeur
+  description: Apache 2.x for Linux.
+  company: "Starinux association"
+  license: "Creative commons"
+  min_ansible_version: 2.10
+  platforms:
+    - name: Debian
+      versions:
+        - all
+  galaxy_tags:
+    - web
+    - apache
+    - webserver
+    - html
+
+allow_duplicates: true
